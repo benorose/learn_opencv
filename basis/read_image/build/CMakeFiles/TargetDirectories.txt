@@ -1,0 +1,3 @@
+/home/guoanyi/newprogramme/learn_opencv/basis/read_image/build/CMakeFiles/rebuild_cache.dir
+/home/guoanyi/newprogramme/learn_opencv/basis/read_image/build/CMakeFiles/edit_cache.dir
+/home/guoanyi/newprogramme/learn_opencv/basis/read_image/build/CMakeFiles/read_image.dir
