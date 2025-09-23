@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.10)
-project(read_image)
+project(video_operate)
 find_package(OpenCV REQUIRED)
-add_executable(read_image src/main.cpp)
-target_link_libraries(read_image ${OpenCV_LIBS})
+add_executable(video_operate src/main.cpp)
+target_link_libraries(video_operate ${OpenCV_LIBS})
