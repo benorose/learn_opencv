@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/video_operate.dir/src/main.cpp.o"
-  "CMakeFiles/video_operate.dir/src/main.cpp.o.d"
+  "CMakeFiles/video_operate.dir/src/read&&write.cpp.o"
+  "CMakeFiles/video_operate.dir/src/read&&write.cpp.o.d"
   "video_operate"
   "video_operate.pdb"
 )

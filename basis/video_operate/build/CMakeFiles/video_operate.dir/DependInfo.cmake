@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/guoanyi/newprogramme/learn_opencv/basis/video_operate/src/main.cpp" "CMakeFiles/video_operate.dir/src/main.cpp.o" "gcc" "CMakeFiles/video_operate.dir/src/main.cpp.o.d"
+  "/home/guoanyi/newprogramme/learn_opencv/basis/video_operate/src/read&&write.cpp" "CMakeFiles/video_operate.dir/src/read&&write.cpp.o" "gcc" "CMakeFiles/video_operate.dir/src/read&&write.cpp.o.d"
   )
 
 # Targets to which this target links.

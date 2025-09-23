@@ -69,28 +69,28 @@ include CMakeFiles/video_operate.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/video_operate.dir/flags.make
 
-CMakeFiles/video_operate.dir/src/main.cpp.o: CMakeFiles/video_operate.dir/flags.make
-CMakeFiles/video_operate.dir/src/main.cpp.o: ../src/main.cpp
-CMakeFiles/video_operate.dir/src/main.cpp.o: CMakeFiles/video_operate.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/guoanyi/newprogramme/learn_opencv/basis/video_operate/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/video_operate.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/video_operate.dir/src/main.cpp.o -MF CMakeFiles/video_operate.dir/src/main.cpp.o.d -o CMakeFiles/video_operate.dir/src/main.cpp.o -c /home/guoanyi/newprogramme/learn_opencv/basis/video_operate/src/main.cpp
+CMakeFiles/video_operate.dir/src/read&&write.cpp.o: CMakeFiles/video_operate.dir/flags.make
+CMakeFiles/video_operate.dir/src/read&&write.cpp.o: ../src/read&&write.cpp
+CMakeFiles/video_operate.dir/src/read&&write.cpp.o: CMakeFiles/video_operate.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/guoanyi/newprogramme/learn_opencv/basis/video_operate/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/video_operate.dir/src/read&&write.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT "CMakeFiles/video_operate.dir/src/read&&write.cpp.o" -MF "CMakeFiles/video_operate.dir/src/read&&write.cpp.o.d" -o "CMakeFiles/video_operate.dir/src/read&&write.cpp.o" -c "/home/guoanyi/newprogramme/learn_opencv/basis/video_operate/src/read&&write.cpp"
 
-CMakeFiles/video_operate.dir/src/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/video_operate.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/guoanyi/newprogramme/learn_opencv/basis/video_operate/src/main.cpp > CMakeFiles/video_operate.dir/src/main.cpp.i
+CMakeFiles/video_operate.dir/src/read&&write.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/video_operate.dir/src/read&&write.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/guoanyi/newprogramme/learn_opencv/basis/video_operate/src/read&&write.cpp" > "CMakeFiles/video_operate.dir/src/read&&write.cpp.i"
 
-CMakeFiles/video_operate.dir/src/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/video_operate.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/guoanyi/newprogramme/learn_opencv/basis/video_operate/src/main.cpp -o CMakeFiles/video_operate.dir/src/main.cpp.s
+CMakeFiles/video_operate.dir/src/read&&write.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/video_operate.dir/src/read&&write.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/guoanyi/newprogramme/learn_opencv/basis/video_operate/src/read&&write.cpp" -o "CMakeFiles/video_operate.dir/src/read&&write.cpp.s"
 
 # Object files for target video_operate
 video_operate_OBJECTS = \
-"CMakeFiles/video_operate.dir/src/main.cpp.o"
+"CMakeFiles/video_operate.dir/src/read&&write.cpp.o"
 
 # External object files for target video_operate
 video_operate_EXTERNAL_OBJECTS =
 
-video_operate: CMakeFiles/video_operate.dir/src/main.cpp.o
+video_operate: CMakeFiles/video_operate.dir/src/read&&write.cpp.o
 video_operate: CMakeFiles/video_operate.dir/build.make
 video_operate: /usr/local/lib/libopencv_stitching.so.4.13.0
 video_operate: /usr/local/lib/libopencv_aruco.so.4.13.0

@@ -129,29 +129,29 @@ video_operate/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/video_operate.dir/build.make CMakeFiles/video_operate.dir/build
 .PHONY : video_operate/fast
 
-src/main.o: src/main.cpp.o
-.PHONY : src/main.o
+src/read&&write.o: src/read&&write.cpp.o
+.PHONY : src/read&&write.o
 
 # target to build an object file
-src/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/video_operate.dir/build.make CMakeFiles/video_operate.dir/src/main.cpp.o
-.PHONY : src/main.cpp.o
+src/read&&write.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/video_operate.dir/build.make "CMakeFiles/video_operate.dir/src/read&&write.cpp.o"
+.PHONY : src/read&&write.cpp.o
 
-src/main.i: src/main.cpp.i
-.PHONY : src/main.i
+src/read&&write.i: src/read&&write.cpp.i
+.PHONY : src/read&&write.i
 
 # target to preprocess a source file
-src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/video_operate.dir/build.make CMakeFiles/video_operate.dir/src/main.cpp.i
-.PHONY : src/main.cpp.i
+src/read&&write.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/video_operate.dir/build.make "CMakeFiles/video_operate.dir/src/read&&write.cpp.i"
+.PHONY : src/read&&write.cpp.i
 
-src/main.s: src/main.cpp.s
-.PHONY : src/main.s
+src/read&&write.s: src/read&&write.cpp.s
+.PHONY : src/read&&write.s
 
 # target to generate assembly for a file
-src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/video_operate.dir/build.make CMakeFiles/video_operate.dir/src/main.cpp.s
-.PHONY : src/main.cpp.s
+src/read&&write.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/video_operate.dir/build.make "CMakeFiles/video_operate.dir/src/read&&write.cpp.s"
+.PHONY : src/read&&write.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... video_operate"
-	@echo "... src/main.o"
-	@echo "... src/main.i"
-	@echo "... src/main.s"
+	@echo "... src/read&&write.o"
+	@echo "... src/read&&write.i"
+	@echo "... src/read&&write.s"
 .PHONY : help
 
 
