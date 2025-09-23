@@ -21,7 +21,7 @@ int main() {
     int frameWideth = cap.get(CAP_PROP_FRAME_WIDTH);
     int frameHeight = cap.get(CAP_PROP_FRAME_HEIGHT);
     // 使用兼容的编码器和格式组合
-    int fourcc = VideoWriter::fourcc('M','P','4','V'); // 使用H.264编码
+    int fourcc = VideoWriter::fourcc('m','p','4','v'); // 使用H.264编码
     VideoWriter writer("/home/guoanyi/视频/megumin_30fps.mp4",fourcc,fps,Size(frameWideth,frameHeight),true);
     if(!writer.isOpened()) {
         cout << "无法创建视频写入器" << endl;
