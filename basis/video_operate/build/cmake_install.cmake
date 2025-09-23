@@ -1,4 +1,4 @@
-# Install script for directory: /home/guoanyi/newprogramme/learn_opencv/basis/read_image
+# Install script for directory: /home/guoanyi/newprogramme/learn_opencv/basis/video_operate
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/guoanyi/newprogramme/learn_opencv/basis/read_image/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/guoanyi/newprogramme/learn_opencv/basis/video_operate/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

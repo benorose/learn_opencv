@@ -57,10 +57,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/guoanyi/newprogramme/learn_opencv/basis/read_image
+CMAKE_SOURCE_DIR = /home/guoanyi/newprogramme/learn_opencv/basis/video_operate
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/guoanyi/newprogramme/learn_opencv/basis/read_image/build
+CMAKE_BINARY_DIR = /home/guoanyi/newprogramme/learn_opencv/basis/video_operate/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/guoanyi/newprogramme/learn_opencv/basis/read_image/build/CMakeFiles /home/guoanyi/newprogramme/learn_opencv/basis/read_image/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/guoanyi/newprogramme/learn_opencv/basis/video_operate/build/CMakeFiles /home/guoanyi/newprogramme/learn_opencv/basis/video_operate/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/guoanyi/newprogramme/learn_opencv/basis/read_image/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/guoanyi/newprogramme/learn_opencv/basis/video_operate/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -117,24 +117,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named read_image
+# Target rules for targets named video_operate
 
 # Build rule for target.
-read_image: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 read_image
-.PHONY : read_image
+video_operate: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 video_operate
+.PHONY : video_operate
 
 # fast build rule for target.
-read_image/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/read_image.dir/build.make CMakeFiles/read_image.dir/build
-.PHONY : read_image/fast
+video_operate/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/video_operate.dir/build.make CMakeFiles/video_operate.dir/build
+.PHONY : video_operate/fast
 
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
 # target to build an object file
 src/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/read_image.dir/build.make CMakeFiles/read_image.dir/src/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/video_operate.dir/build.make CMakeFiles/video_operate.dir/src/main.cpp.o
 .PHONY : src/main.cpp.o
 
 src/main.i: src/main.cpp.i
@@ -142,7 +142,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/read_image.dir/build.make CMakeFiles/read_image.dir/src/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/video_operate.dir/build.make CMakeFiles/video_operate.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -150,7 +150,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/read_image.dir/build.make CMakeFiles/read_image.dir/src/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/video_operate.dir/build.make CMakeFiles/video_operate.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 # Help Target
@@ -161,7 +161,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... read_image"
+	@echo "... video_operate"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

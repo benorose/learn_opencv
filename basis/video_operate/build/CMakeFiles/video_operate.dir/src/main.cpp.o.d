@@ -1,5 +1,5 @@
-CMakeFiles/read_image.dir/src/main.cpp.o: \
- /home/guoanyi/newprogramme/learn_opencv/basis/read_image/src/main.cpp \
+CMakeFiles/video_operate.dir/src/main.cpp.o: \
+ /home/guoanyi/newprogramme/learn_opencv/basis/video_operate/src/main.cpp \
  /usr/include/stdc-predef.h /usr/local/include/opencv4/opencv2/opencv.hpp \
  /usr/local/include/opencv4/opencv2/opencv_modules.hpp \
  /usr/local/include/opencv4/opencv2/core.hpp \

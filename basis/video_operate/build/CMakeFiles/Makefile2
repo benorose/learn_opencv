@@ -54,16 +54,16 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/guoanyi/newprogramme/learn_opencv/basis/read_image
+CMAKE_SOURCE_DIR = /home/guoanyi/newprogramme/learn_opencv/basis/video_operate
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/guoanyi/newprogramme/learn_opencv/basis/read_image/build
+CMAKE_BINARY_DIR = /home/guoanyi/newprogramme/learn_opencv/basis/video_operate/build
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/read_image.dir/all
+all: CMakeFiles/video_operate.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -71,34 +71,34 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/read_image.dir/clean
+clean: CMakeFiles/video_operate.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/read_image.dir
+# Target rules for target CMakeFiles/video_operate.dir
 
 # All Build rule for target.
-CMakeFiles/read_image.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/read_image.dir/build.make CMakeFiles/read_image.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/read_image.dir/build.make CMakeFiles/read_image.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/guoanyi/newprogramme/learn_opencv/basis/read_image/build/CMakeFiles --progress-num=1,2 "Built target read_image"
-.PHONY : CMakeFiles/read_image.dir/all
+CMakeFiles/video_operate.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/video_operate.dir/build.make CMakeFiles/video_operate.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/video_operate.dir/build.make CMakeFiles/video_operate.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/guoanyi/newprogramme/learn_opencv/basis/video_operate/build/CMakeFiles --progress-num=1,2 "Built target video_operate"
+.PHONY : CMakeFiles/video_operate.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/read_image.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/guoanyi/newprogramme/learn_opencv/basis/read_image/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/read_image.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/guoanyi/newprogramme/learn_opencv/basis/read_image/build/CMakeFiles 0
-.PHONY : CMakeFiles/read_image.dir/rule
+CMakeFiles/video_operate.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/guoanyi/newprogramme/learn_opencv/basis/video_operate/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/video_operate.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/guoanyi/newprogramme/learn_opencv/basis/video_operate/build/CMakeFiles 0
+.PHONY : CMakeFiles/video_operate.dir/rule
 
 # Convenience name for target.
-read_image: CMakeFiles/read_image.dir/rule
-.PHONY : read_image
+video_operate: CMakeFiles/video_operate.dir/rule
+.PHONY : video_operate
 
 # clean rule for target.
-CMakeFiles/read_image.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/read_image.dir/build.make CMakeFiles/read_image.dir/clean
-.PHONY : CMakeFiles/read_image.dir/clean
+CMakeFiles/video_operate.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/video_operate.dir/build.make CMakeFiles/video_operate.dir/clean
+.PHONY : CMakeFiles/video_operate.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
